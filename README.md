@@ -7,17 +7,6 @@ Set up the environment:
 
 
 download pretrained sports-1m c3d weights and put them in `model/`:
-http://imagelab.ing.unimore.it/files/c3d_pytorch/c3d.pickle
+> http://imagelab.ing.unimore.it/files/c3d_pytorch/c3d.pickle
 
-> run `python do_activation_maximization.py`.
-
-
-### Flownet
-* FlowNet partially from https://github.com/ClementPinard/FlowNetPytorch
-* Needs: https://pypi.org/project/spatial-correlation-sampler/ (gcc8 doesnt work, needs ```$CUDA_HOME``` to be set)
-* Get weights from https://drive.google.com/file/d/1H_5WE-Lrx5arD0-X801yRzdSAuBZQmXh/view
-
-
-### C3D
-* C3D from https://github.com/DavideA/c3d-pytorch.
-* Get weights from http://imagelab.ing.unimore.it/files/c3d_pytorch/c3d.pickle
+run `python do_activation_maximization.py`.
